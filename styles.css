@@ -1,0 +1,58 @@
+body{
+	background-image: url(./img/conference-room.jpg);
+	background-size: cover;
+}
+img{
+	width: 10%;
+	margin:0px auto;
+	display:block;
+}
+input,button{
+	border:none;
+	border-radius: 5px;
+}
+input{
+	width:100%;
+	margin-top: 10px;
+	padding:4px;
+}
+button{
+	width:48%;
+	display: block;
+	background-color: #2672ec;
+	color:white;
+	padding: 4px 18px;
+}
+strong{
+	font-size: 17px;
+	font-weight: normal;
+}
+a{
+	color:white;
+	padding:0px 10px;
+}
+a:hover{
+	color:white;
+	text-decoration: none;
+}
+.password a{
+    color:#ff6633;
+    font-weight: bold;
+    padding-bottom:15px;
+    text-align: end;
+    width:100%;
+}
+.signin-page{
+	position: absolute;
+	width:30%;
+	right:0;
+	padding: 25px;
+	background:rgba(0,0,0,.75);
+	min-height: 100vh;
+}
+.privacy-policy{
+	position: absolute;
+	bottom:20px;
+	font-size: 13px;
+}
+
